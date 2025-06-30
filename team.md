@@ -8,10 +8,13 @@ title: "Team - Saguaro"
     <h2 class="section-title">Team</h2>
     <div class="team-grid">
         <div class="team-member">
-            <div class="member-avatar"><img src="{{ '/assets/images/dan.png' | relative_url }}" alt="Dan Reardon" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+            <div class="member-avatar">
+                <img src="{{ '/assets/images/dan.png' | relative_url }}" alt="Dan Reardon" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
             <h3 class="member-name">Dan Reardon</h3>
             <p class="member-bio">
                 Led Analytics at TRM. Architected large-scale data systems at Oscar Health. Scaled DoorDash as one of its first 100 employees.
+            </p>
             <div class="member-links">
                 <a href="https://www.linkedin.com/in/reardondaniel/" target="_blank" title="LinkedIn">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -25,8 +28,11 @@ title: "Team - Saguaro"
                 </a>
             </div>
         </div>
+        
         <div class="team-member">
-            <div class="member-avatar"><img src="{{ '/assets/images/chris.png' | relative_url }}" alt="Chris Torres-Lugo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+            <div class="member-avatar">
+                <img src="{{ '/assets/images/chris.png' | relative_url }}" alt="Chris Torres-Lugo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
             <h3 class="member-name">Chris Torres-Lugo</h3>
             <p class="member-bio">Ex-TRM. PhD in Computer Science. Expertise in the analysis of coordinated activity across blockchain addresses and social networks.</p>
             <div class="member-links">
